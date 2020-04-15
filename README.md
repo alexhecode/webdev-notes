@@ -9,6 +9,8 @@ As I learn more, I will create a beautiful web app that displays my notes in the
 
 All the resources I have used to compile these notes will be detailed in the next section of this README. Images used in this project are all labelled for reuse.
 
+So far, this project is helping me to familiarize myself with the HTML and CSS syntax.
+
 ![Code](/images/code.jpg)
 
 ## Learning resources:
