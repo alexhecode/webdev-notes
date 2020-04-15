@@ -7,10 +7,9 @@ This repository is a collection of my notes on Web Development. I want to use th
 
 As I learn more, I will create a beautiful web app that displays my notes in the browser. I will be able to use this web app in the future as a reference.
 
-All the resources I have used to compile these notes will be detailed in the next section of this README.
+All the resources I have used to compile these notes will be detailed in the next section of this README. Images used in this project are all labelled for reuse.
 
 ![Code](/images/code.jpg)
-Images used in this project are all labelled for reuse.
 
 ## Learning resources:
 
