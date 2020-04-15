@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>My HTML notes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link href="styles/main.css" rel="stylesheet" type="text/css">
+        <title>Notes on HTML</title>
     </head>
 
     <body>
+        <!-- Top Navigation Bar -->
         <div class="topnav">
             <a href="index.html">Home</a>
             <a class="active" href="html.html">HTML</a>
+            <a href="css.html">CSS</a>
         </div>
 
-        <center><h1>My notes on HTML</h1></center>
-
-        <hr>
+        <article>
+        <center><h1>HTML - HyperText Markup Language</h1></center>
 
         <p>
-            <h2>What is Hypertext Markup Language?</h2>
+            <h2>What is HyperText Markup Language?</h2>
         HTML is not a programming language but a markup language. It uses a markup system composed of elements
         which represent specific content. Markup means that with HTML you declare what is presented to a viewer, not how it is presented.
         Visual representations are defined by Cascading Style Sheets (CSS) and realized by browsers. however existing
@@ -141,7 +145,7 @@
             For example:
             <br>
             <xmp><address><p><a href="mailto:homer@example.org">homer@example.org</a></p>
-                <p><742 Evergreen Terrace, Springfield</p></address></xmp>
+            <p><742 Evergreen Terrace, Springfield</p></address></xmp>
             This tag is used to contain contact details of the author.      
         </p>
         
@@ -190,16 +194,20 @@
         <p>
             <h3>Style</h3>
             <xmp><style></style></xmp> This element contains style information for a document. It contians CSS (Cascading Style Sheets) which is applied to the contents of the document.
-            Currently, the style tag is holding CSS instructions for the background image and how it is styled.
-            The background music was retreived from <a href="goodfon.com">GoodFon</a>.
-        </p>
-    </body>
+            Previously, the style tag for this webpage was holding CSS instructions for the background image and how it is styled.
+            The background image was retreived from <a href="goodfon.com">GoodFon</a>.
 
-    <style>
-        body {
-            background-image:  url(images/img_wallpaper.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-    </style>
+            <xmp>
+                <!-- Background -->
+                <style>
+                    body {
+                        background-image: url(images/img_wallpaper.jpg);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                </style>
+            </xmp>
+        </p>
+        </article>
+    </body>
 </html>
